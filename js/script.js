@@ -47,7 +47,7 @@ const songs=[{
 },
 {
     name:"m8",
-    title:"Let Me Down Slowly",
+    title:"Let Me Down",
     artist:'Alec Benjamin'
 },
 {
