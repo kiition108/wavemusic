@@ -14,7 +14,7 @@ html{
 }
 .main_div{
     width: 100vw;
-    height: 100vh;
+    height: 97vh;
     background-color: #e6bb94;
     display: grid;
     place-items: center;
@@ -152,3 +152,10 @@ img{
     justify-content: space-between;
     font-size: 1.2rem;
 }
+ /* credit section */
+ .credit{
+     text-align: center;
+     font-size: 1.5rem;
+     justify-content: space-between;
+     background-color: #e6bb94;
+ }
