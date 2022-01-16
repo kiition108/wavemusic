@@ -109,9 +109,13 @@ music.addEventListener("timeupdate",(event)=>{
 
    let min_duration=Math.floor(duration/60);
    let sec_duration=Math.floor(duration%60);
+   if(sec_duration<10){
+    sec_duration=`0${sec_duration}`;
+   }
    if(duration){
     durat.textContent=`${min_duration}:${sec_duration}`;
    }
+   
    //    music currentTime update
    let min_currentTime=Math.floor(currentTime/60);
    let sec_currentTime=Math.floor(currentTime%60);
